@@ -1,0 +1,26 @@
+.container{
+    background: cadetblue;
+    height: 480px;
+    width: 500px;
+    margin: 10px auto;
+    border: darkorange dotted 2px;
+    padding: 20px;
+    position: relative;
+    /* left: 200px; */
+}
+input{
+    background: gainsboro;
+}
+textarea{
+    background: #9daecf;
+}
+input[type="text"],#pic{
+    position: relative;
+    left: 10px;
+}
+#div7{
+        margin: 10px auto;
+        background: hsl(300, 100%, 100%);
+        position:absolute;
+        left: 200px;
+}

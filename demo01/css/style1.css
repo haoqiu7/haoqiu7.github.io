@@ -1,0 +1,54 @@
+html {
+  /* px 表示“像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 10px;
+  /* Google fonts 输出的 CSS */
+  font-family: 'Google', 'Helvetica';
+  background-color: #dda044;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  /* margin: 3em auto 5%; */
+  /* background-color: hsl(202, 78%, 45%); */
+  background: rgba(53, 110, 217);
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #62d634;
+  text-shadow: 5px 5px 10px black;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+img {
+  /* width: 500px; */
+  display: block;
+  margin: 0 auto;
+  /* border: 1px dashed rgb(0, 0, 0); */
+}
+div[id=d1] {
+  width: 512px;
+  height: 512px;
+  border-radius: 514px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* <body> 元素是块级元素，意味着它占据了页面的空间并且能够赋予外边距和其他改变间距的值。而图片是内联元素，不具备块级元素的一些功能。所以为了使图像有外边距，我们必须使用 display: block 给予其块级行为。或者减小 <img> 元素 width 属性的值 */
+p,
+li {
+  font-size: 16px;
+  /* line-height 后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+  line-height: 2;
+  letter-spacing: 1px;
+  /* 间隔 */
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>操作表单</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!--<form action="" method="post" class="container">-->
+    <form action="#" method="post" class="container">
+        <p>
+            <label>用户名:</label>
+            <input type="text" name="username" id="uname" />
+        </p>
+        <br>
+        <div id="div1">
+            <label>密&nbsp;&nbsp;&nbsp;码：</label>
+
+            <input type="password" name="password" id="uid" />
+        </div>
+        <br>
+        <div id="div2">
+            <label>性&nbsp;&nbsp;&nbsp;别：</label>
+            <input type="radio" name="gender" id="man" value="1" /><label for="man">男</label>
+            <input type="radio" name="gender" id="women" value="0" /><label for="women">女</label>
+        </div>
+        <br>
+        <div id="div3">
+            <label>爱&nbsp;&nbsp;&nbsp;好：</label>
+            <input type="checkbox" name="hobby" value="basketball" /><label for="">篮球</label>
+            <input type="checkbox" name="hobby" value="study" /><label for="">学习</label>
+            <input type="checkbox" name="hobby" value="play" /><label for="">逛街</label>
+            <input type="checkbox" name="hobby" value="book" /><label for="">看书</label>
+            <input type="checkbox" name="hobby" value="sing" /><label for="">唱歌</label>
+        </div>
+        <br>
+        <div id="div4">
+            <label>照&nbsp;&nbsp;&nbsp;片:</label>
+            <input id="pic" name="photo" type="file" class="form-control" />
+        </div>
+        <br>
+        <div id="div5">
+            <label>个人描述:</label>
+            <textarea name="introduce" rows="4" cols="70"></textarea>
+        </div>
+        <br>
+
+        <!--    <input type="hidden" name="wwwwwwwwwwwwwwww" id="" value="12" />-->
+
+        <div id="div6">
+            <label>籍贯:</label>
+            <select name="site">
+                <option value="shanghai">上海</option>
+                <option value="jing">北京</option>
+                <option value="meng">内蒙古</option>
+                <option value="yu">河南</option>
+                <option value="ji">河北</option>
+            </select>
+        </div>
+        <br><br>
+        <div id="div7">
+            <input type="submit" name="" value="提交" class="btn btn-primary">
+            <input type="reset" name="" value="重置" class="btn btn-danger"/>
+        </div>
+    </form>
+
+</body>
+
+</html>
